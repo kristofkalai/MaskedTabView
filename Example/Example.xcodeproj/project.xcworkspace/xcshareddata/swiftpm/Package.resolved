@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "maskedtabview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/MaskedTabView",
+      "state" : {
+        "revision" : "63243755cef5d283330c9c1b646ae7dfd1611888",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "pagingtabview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/PagingTabView",
+      "state" : {
+        "revision" : "cea66c27fb93f8a225fe323a1ac0c35c67eb0144",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}
