@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stateman92/MaskedTabView",
       "state" : {
-        "revision" : "63243755cef5d283330c9c1b646ae7dfd1611888",
-        "version" : "0.0.1"
+        "revision" : "5af55411af932758ea468a09f1eab0aee1df77f6",
+        "version" : "0.0.2"
       }
     },
     {
