@@ -54,22 +54,20 @@ extension MaskedTabView {
                     .frame(width: tabWidth(size: size))
             }
         }
-        .overlay(alignment: .leading) {
-            overlay(size: size)
-        }
+        .overlay(overlay(size: size), alignment: .leading)
     }
 
     private func overlay(size: CGSize) -> some View {
         Capsule()
             .fill(overlayColor)
-            .overlay(alignment: .leading) {
+            .overlay(
                 HStack(spacing: .zero) {
                     ForEach(tabs) {
                         overlayTab(tab: $0, size: size)
                     }
                     .offset(x: -tabOffset(size: size))
-                }
-            }
+                },
+                alignment: .leading)
             .mask(Capsule())
             .offset(x: tabOffset(size: size))
             .frame(width: tabWidth(size: size))
